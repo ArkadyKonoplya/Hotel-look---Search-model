@@ -1,0 +1,18 @@
+.owl-prev,
+.owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	&.disabled {
+		opacity: 0.3;
+	}
+}
+
+.owl-prev {
+	left: 0;
+}
+
+.owl-next {
+	right: 0;
+	transform: translateY(-50%) rotate(180deg);
+}
